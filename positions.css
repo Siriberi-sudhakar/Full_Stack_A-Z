@@ -1,0 +1,76 @@
+#headerSection{
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+#flex-box{
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 450px;
+
+    
+}
+
+
+
+
+/* ekkada nunchi position relative and absolute position ni use chesaru */
+
+.box{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+}
+.fixedElement{
+    background: green;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+
+}
+#parent{
+    border: 2px solid blue;
+    position: relative;    /* parent element edhi relative position lo undi */
+
+
+}
+.AE{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;  /* absolute position lo undi */
+    top: 20px;
+}
+.AE1{
+    background: red;
+    color: white;
+    z-index: 1;
+}
+.AE2{
+    background: green;
+    color: white;
+    z-index: 0;
+}
+.AE3{
+    background: blue;
+    color: white;
+    z-index: 0;
+}
+.AE4{
+    background: black;
+    color: white;
+    z-index: 0;
+}

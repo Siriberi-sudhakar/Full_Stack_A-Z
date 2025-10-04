@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        #heading{
+            background: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+
+        }
+        #taskInput{
+            padding: 10px;
+            width: 200px;
+        }
+        #addTaskButton{
+            padding: 10px;
+            
+        }
+        .task-list{
+            margin: 10px 0;
+            padding: 0;
+            list-style: none;
+        }
+        .task-list li{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <h1 id="heading">DOM concepts Demo</h1>
+    </header>
+    <br>
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="addTaskButton">Add Task</button>
+
+    <h2 style="font-size: 40px">Tasks</h2>
+
+    <ul class="task-List" id="tasklist">
+        <!-- Tasks will be dynamically added -->
+    </ul>
+
+
+
+
+
+
+
+    <h1 id="main-title">Welcome to the DOM</h1>
+    <h3>DOM --> Document Object Model</h3>
+
+    <p>DOM is used to make website Dynamic</p>
+
+    <p>DOM use cases</p>
+
+        <ul>
+            <li>access</li>
+            <li>manipulate</li>
+            <li>Create</li>
+            <li>Delete</li>
+        </ul>
+
+    <div class="container">
+        <p class="divParagraph">This is a paragraph inside a div.</p>
+
+        <ul class="items-container">
+            <li id="item1">First Item</li>
+            <li id="item2">Second Item</li>
+            <li id="item3">Third Item</li>
+        </ul>
+    </div>
+
+
+    <script src="dom.js"></script>
+</body>
+</html>
