@@ -1,0 +1,8 @@
+export const team = [
+    {id: 1, Name: "sudhakar", Role: "L1", img: "https://example.com/sudhakar.jpg"},
+    {id: 2, Name: "satya", Role: "Designer", img: "https://example.com/bob.jpg"},
+    {id: 3, Name: "ganesh", Role: "Manager", img: "https://example.com/charlie.jpg"},
+    {id: 4, Name: "sudhakar2", Role: "L2", img: "https://example.com/sudhakar2.jpg"},
+    {id: 5, Name: "satya2", Role: "Designer2", img: "https://example.com/bob2.jpg"},
+    {id: 6, Name: "ganesh2", Role: "Manager2", img: "https://example.com/charlie2.jpg"}
+];
